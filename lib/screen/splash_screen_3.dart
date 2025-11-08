@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:splash_screen/screen/login.dart';
 
 class Screen3 extends StatelessWidget {
   const Screen3({super.key});
@@ -64,7 +64,8 @@ class Screen3 extends StatelessWidget {
                     margin: const EdgeInsets.symmetric(horizontal: 4),
                     decoration: const BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Color(0xFF84a98c), // aktif
+                       color: Color(0xFFedede9),
+                      // aktif
                     ),
                   ),
                   Container(
@@ -82,7 +83,7 @@ class Screen3 extends StatelessWidget {
                     margin: const EdgeInsets.symmetric(horizontal: 4),
                     decoration: const BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Color(0xFFedede9), // non-aktif
+                       color: Color(0xFF84a98c), // non-aktif
                     ),
                   ),
                 ],
@@ -105,7 +106,9 @@ class Screen3 extends StatelessWidget {
                       ),
                     ),
                     onPressed: () {
-                      
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (contex) => Login()),
+                      );
                     },
                     child: const Text(
                       "Continue",

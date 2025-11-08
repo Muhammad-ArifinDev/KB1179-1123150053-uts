@@ -64,7 +64,8 @@ class Screen2 extends StatelessWidget {
                     margin: const EdgeInsets.symmetric(horizontal: 4),
                     decoration: const BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Color(0xFF84a98c), // aktif
+                       color: Color(0xFFedede9),
+                     // aktif
                     ),
                   ),
                   Container(
@@ -73,7 +74,7 @@ class Screen2 extends StatelessWidget {
                     margin: const EdgeInsets.symmetric(horizontal: 4),
                     decoration: const BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Color(0xFFedede9), // non-aktif
+                       color: Color(0xFF84a98c),  // non-aktif
                     ),
                   ),
                   Container(
