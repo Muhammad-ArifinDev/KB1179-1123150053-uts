@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:splash_screen/screen/splash_screen_3.dart';
 
 class Screen2 extends StatelessWidget {
   const Screen2({super.key});
@@ -19,7 +19,7 @@ class Screen2 extends StatelessWidget {
               shape: BoxShape.circle,
               color: Colors.amber,
                   image: DecorationImage(
-                    image: AssetImage("assets/images/images2.jpg"),
+                    image: AssetImage("assets/images/image2.jpeg"),
                     fit: BoxFit.cover,
                   ),
             ),
@@ -105,7 +105,9 @@ class Screen2 extends StatelessWidget {
                       ),
                     ),
                     onPressed: () {
-                      
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (contex) => Screen3()),
+                      );
                     },
                     child: const Text(
                       "Continue",
