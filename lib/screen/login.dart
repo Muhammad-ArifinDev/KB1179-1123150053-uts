@@ -132,6 +132,51 @@ class Login extends StatelessWidget {
 
               const SizedBox(height: 30),
               
+             
+              SizedBox(
+                height: 50,
+                child: OutlinedButton.icon(
+                  onPressed: () {},
+                  icon: Image.asset(
+                    "assets/images/google.png",
+                    width: 24,
+                    height: 24,
+                  ),
+                  label: const Text(
+                    "Login dengan Google",
+                    style: TextStyle(
+                      color: Colors.black87,
+                      fontSize: 16,
+                    ),
+                  ),
+                  style: OutlinedButton.styleFrom(
+                    side: const BorderSide(color: Colors.grey),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                  ),
+                ),
+              ),
+
+              const SizedBox(height: 30),
+
+              
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Text(
+                    "Belum punya akun?",
+                    style: TextStyle(color: Colors.black54),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: const Text(
+                      "Daftar sekarang",
+                      style: TextStyle(color: Colors.teal),
+                    ),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
