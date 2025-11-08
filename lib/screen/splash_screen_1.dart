@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tugas_week_6_1123150053/screen/splash_screen_2.dart';
+//import 'package:tugas_week_6_1123150053/screen/splash_screen_2.dart';
 
 class MySplashScreen extends StatelessWidget {
   const MySplashScreen({super.key});
@@ -106,7 +106,7 @@ class MySplashScreen extends StatelessWidget {
                     ),
                     onPressed: () {
                       Navigator.push(context,
-                      MaterialPageRoute(builder: (contex) => MySplashScreen2()),
+                      //MaterialPageRoute(builder: (contex) => MySplashScreen2()),
                       );
                     },
                     child: const Text(
