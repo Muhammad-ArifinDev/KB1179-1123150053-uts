@@ -12,10 +12,10 @@
 
 Tampilan halaman splash screen aplikasi:
 
-![Splash Screen](assets/images/SS 1.jpeg)
-![Splash Screen](assets/images/SS 2.jpeg)
-![Splash Screen](assets/images/SS 3.jpeg)
-![Splash Screen](assets/images/SS 4.jpeg)
+![Splash Screen](assets/images/SS1.jpeg)
+![Splash Screen](assets/images/SS2.jpeg)
+![Splash Screen](assets/images/SS3.jpeg)
+![Splash Screen](assets/images/SS4.jpeg)
 
 ## ⚙️ Cara Menjalankan Project
 

@@ -58,10 +58,10 @@ flutter:
    - assets/images/image3.jpeg
    - assets/images/google.png
    - assets/images/padlock.png
-   - assets/images/SS 1.jpeg
-   - assets/images/SS 2.jpeg
-   - assets/images/SS 3.jpeg
-   - assets/images/SS 4.jpeg
+   - assets/images/SS1.jpeg
+   - assets/images/SS2.jpeg
+   - assets/images/SS3.jpeg
+   - assets/images/SS4.jpeg
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
