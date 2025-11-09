@@ -1,16 +1,29 @@
-# flutter_application_1
+# 🧩 UTS Pemrograman Mobile (KB1179)
 
-A new Flutter project.
+## 👤 Identitas Mahasiswa
+    Nama : Muhammad Arifin
+    NIM : 1123150053
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🖼️ Hasil Screenshot
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Tampilan halaman splash screen aplikasi:
+
+![Splash Screen](assets/images/SS 1.jpeg)
+![Splash Screen](assets/images/SS 2.jpeg)
+![Splash Screen](assets/images/SS 3.jpeg)
+![Splash Screen](assets/images/SS 4.jpeg)
+
+## ⚙️ Cara Menjalankan Project
+
+1. Buka project di **Android Studio** atau **VS Code**.
+2. Pastikan perangkat (emulator atau HP) sudah terhubung.
+3. Jalankan perintah berikut di terminal:
+
+   ```bash
+   flutter run
+   ```
+4. Aplikasi akan berjalan langsung di perangkat.
